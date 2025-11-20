@@ -6,17 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		285B5C752ECFD88A003FD863 /* Application_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B5C702ECFD88A003FD863 /* Application_iosApp.swift */; };
+		285B5C762ECFD88A003FD863 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B5C722ECFD88A003FD863 /* ContentView.swift */; };
+		285B5C772ECFD88A003FD863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285B5C712ECFD88A003FD863 /* Assets.xcassets */; };
+		285B5C7E2ECFD9BF003FD863 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B5C7D2ECFD9BF003FD863 /* SplashView.swift */; };
+		285B5C812ECFDA03003FD863 /* SplashScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B5C802ECFDA03003FD863 /* SplashScene.swift */; };
+		285B5C832ECFDA20003FD863 /* SplashSceneModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B5C822ECFDA20003FD863 /* SplashSceneModifier.swift */; };
+		285B5C862ECFDA5B003FD863 /* SplashConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B5C852ECFDA5B003FD863 /* SplashConfiguration.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		285B5C602ECFA3D2003FD863 /* Application-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Application-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		285B5C702ECFD88A003FD863 /* Application_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application_iosApp.swift; sourceTree = "<group>"; };
+		285B5C712ECFD88A003FD863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		285B5C722ECFD88A003FD863 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		285B5C732ECFD88A003FD863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		285B5C7D2ECFD9BF003FD863 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		285B5C802ECFDA03003FD863 /* SplashScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScene.swift; sourceTree = "<group>"; };
+		285B5C822ECFDA20003FD863 /* SplashSceneModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashSceneModifier.swift; sourceTree = "<group>"; };
+		285B5C852ECFDA5B003FD863 /* SplashConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		285B5C622ECFA3D2003FD863 /* Application-ios */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Application-ios";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		285B5C5D2ECFA3D2003FD863 /* Frameworks */ = {
@@ -32,7 +42,7 @@
 		285B5C572ECFA3D2003FD863 = {
 			isa = PBXGroup;
 			children = (
-				285B5C622ECFA3D2003FD863 /* Application-ios */,
+				285B5C742ECFD88A003FD863 /* Application-ios */,
 				285B5C612ECFA3D2003FD863 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +53,69 @@
 				285B5C602ECFA3D2003FD863 /* Application-ios.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		285B5C742ECFD88A003FD863 /* Application-ios */ = {
+			isa = PBXGroup;
+			children = (
+				285B5C792ECFD894003FD863 /* App */,
+				285B5C7A2ECFD995003FD863 /* Features */,
+				285B5C872ECFDA91003FD863 /* Resources */,
+			);
+			path = "Application-ios";
+			sourceTree = "<group>";
+		};
+		285B5C792ECFD894003FD863 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				285B5C702ECFD88A003FD863 /* Application_iosApp.swift */,
+				285B5C7F2ECFD9F0003FD863 /* Scenes */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		285B5C7A2ECFD995003FD863 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				285B5C7B2ECFD99E003FD863 /* Splash */,
+				285B5C7C2ECFD9A4003FD863 /* Content */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		285B5C7B2ECFD99E003FD863 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				285B5C7D2ECFD9BF003FD863 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		285B5C7C2ECFD9A4003FD863 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				285B5C722ECFD88A003FD863 /* ContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		285B5C7F2ECFD9F0003FD863 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				285B5C802ECFDA03003FD863 /* SplashScene.swift */,
+				285B5C822ECFDA20003FD863 /* SplashSceneModifier.swift */,
+				285B5C852ECFDA5B003FD863 /* SplashConfiguration.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		285B5C872ECFDA91003FD863 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				285B5C712ECFD88A003FD863 /* Assets.xcassets */,
+				285B5C732ECFD88A003FD863 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +132,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				285B5C622ECFA3D2003FD863 /* Application-ios */,
 			);
 			name = "Application-ios";
 			packageProductDependencies = (
@@ -109,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285B5C772ECFD88A003FD863 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285B5C752ECFD88A003FD863 /* Application_iosApp.swift in Sources */,
+				285B5C812ECFDA03003FD863 /* SplashScene.swift in Sources */,
+				285B5C762ECFD88A003FD863 /* ContentView.swift in Sources */,
+				285B5C862ECFDA5B003FD863 /* SplashConfiguration.swift in Sources */,
+				285B5C7E2ECFD9BF003FD863 /* SplashView.swift in Sources */,
+				285B5C832ECFDA20003FD863 /* SplashSceneModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +333,9 @@
 				DEVELOPMENT_TEAM = XPBFBX9K2Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Application-ios/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,9 +365,9 @@
 				DEVELOPMENT_TEAM = XPBFBX9K2Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Application-ios/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
